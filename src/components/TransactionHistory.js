@@ -4,15 +4,15 @@ import { TransitionContext } from './context/globalContext';
 
 
 export const TransactionHistory = () => {
-    let transactions = useContext(TransitionContext);
+    let {transactions} = useContext(TransitionContext);
     // let [newDesc, setDesc] = useState("");
     // let [newAmount, setAmount] = useState("");
 
 
 
-    const handleAddition = (event) => {
-        event.preventDefault()
-    }
+    // const handleAddition = (event) => {
+    //     event.preventDefault()
+    // }
 
     return (
         <div>
@@ -20,17 +20,18 @@ export const TransactionHistory = () => {
                 Transaction History
                 
                 <ul className='transactionlist'>
-                    {/* {transactions.map((obj, ind) => {
-                        return ( <li key={ind}>
-                                <span>{obj.desc}</span>
-                                <span>{obj.amount}</span>
+
+                    {transactions.map((obj, ind) => {
+                        return ( <li>
+                                <span>{}</span>
+                                <span>{}</span>
 
                             </li>
 
                         )
-                    })
+                        })
 
-                    } */}
+                    }
                     
 
                 </ul>
