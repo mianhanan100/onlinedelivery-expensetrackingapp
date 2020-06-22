@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd50ad9a.chunk.css",
-    "main.js": "/static/js/main.6c70bf70.chunk.js",
-    "main.js.map": "/static/js/main.6c70bf70.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.e6db7f73.js",
-    "runtime-main.js.map": "/static/js/runtime-main.e6db7f73.js.map",
-    "static/js/2.e0999f97.chunk.js": "/static/js/2.e0999f97.chunk.js",
-    "static/js/2.e0999f97.chunk.js.map": "/static/js/2.e0999f97.chunk.js.map",
-    "index.html": "/index.html",
-    "precache-manifest.f36302e238e420a8c570ee46a478847f.js": "/precache-manifest.f36302e238e420a8c570ee46a478847f.js",
-    "service-worker.js": "/service-worker.js",
-    "static/css/main.cd50ad9a.chunk.css.map": "/static/css/main.cd50ad9a.chunk.css.map",
-    "static/js/2.e0999f97.chunk.js.LICENSE.txt": "/static/js/2.e0999f97.chunk.js.LICENSE.txt"
+    "main.css": "/onlinedelivery-expensetrackingapp/static/css/main.cd50ad9a.chunk.css",
+    "main.js": "/onlinedelivery-expensetrackingapp/static/js/main.d5184ebe.chunk.js",
+    "main.js.map": "/onlinedelivery-expensetrackingapp/static/js/main.d5184ebe.chunk.js.map",
+    "runtime-main.js": "/onlinedelivery-expensetrackingapp/static/js/runtime-main.62bfec27.js",
+    "runtime-main.js.map": "/onlinedelivery-expensetrackingapp/static/js/runtime-main.62bfec27.js.map",
+    "static/js/2.e0999f97.chunk.js": "/onlinedelivery-expensetrackingapp/static/js/2.e0999f97.chunk.js",
+    "static/js/2.e0999f97.chunk.js.map": "/onlinedelivery-expensetrackingapp/static/js/2.e0999f97.chunk.js.map",
+    "index.html": "/onlinedelivery-expensetrackingapp/index.html",
+    "precache-manifest.0dc29a63c98b1f952a8a57b78cc8045d.js": "/onlinedelivery-expensetrackingapp/precache-manifest.0dc29a63c98b1f952a8a57b78cc8045d.js",
+    "service-worker.js": "/onlinedelivery-expensetrackingapp/service-worker.js",
+    "static/css/main.cd50ad9a.chunk.css.map": "/onlinedelivery-expensetrackingapp/static/css/main.cd50ad9a.chunk.css.map",
+    "static/js/2.e0999f97.chunk.js.LICENSE.txt": "/onlinedelivery-expensetrackingapp/static/js/2.e0999f97.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.e6db7f73.js",
+    "static/js/runtime-main.62bfec27.js",
     "static/js/2.e0999f97.chunk.js",
     "static/css/main.cd50ad9a.chunk.css",
-    "static/js/main.6c70bf70.chunk.js"
+    "static/js/main.d5184ebe.chunk.js"
   ]
 }
