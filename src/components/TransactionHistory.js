@@ -21,17 +21,17 @@ export const TransactionHistory = () => {
                 
                 <ul className='transactionlist'>
 
-                    {transactions.map((obj, ind) => {
+                    {/* {transactions.map((obj, ind) => {
                         return ( <li>
                                 <span>{}</span>
                                 <span>{}</span>
 
                             </li>
 
-                        )
-                        })
+                        ) */}
+                        {/* }) */}
 
-                    }
+                    {/* } */}
                     
 
                 </ul>
