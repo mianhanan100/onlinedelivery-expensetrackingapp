@@ -5,8 +5,8 @@ import { TransitionContext } from './context/globalContext';
 
 export const TransactionHistory = () => {
     let transactions = useContext(TransitionContext);
-    let [newDesc, setDesc] = useState("");
-    let [newAmount, setAmount] = useState("");
+    // let [newDesc, setDesc] = useState("");
+    // let [newAmount, setAmount] = useState("");
 
 
 
