@@ -1,6 +1,6 @@
 # This is a basic workflow to help you get started with Actions
 
-name: CI
+name: Expensetrackingapp
 
 # Controls when the action will run. Triggers the workflow on push or pull request
 # events but only for the master branch
@@ -26,19 +26,23 @@ jobs:
     - name: Installing node
       uses: actions/setup-node@v2-beta
       with:
-        node-version: 12 
+        node-version: 10
         
     - name: Github action for yarn
       uses: Borales/actions-yarn@v2.1.0
       with:
         cmd: install
       
-    - name:  creating build
-      run: yarn build
+    - name: Github action for yarn
+      uses: Borales/actions-yarn@v2.1.0
+      with:
+        cmd: build 
+           
+  
     
 
     # Runs a set of commands using the runners shell
     - name: Installing surge
       run: npm install --global surge
     - name: deploying using surge
-      run: surge ./ onlinedelivery-expensetrackingapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
+      run: surge ./build onlinedelivery-expensetrackingapp.surge.sh --token ${{secrets.SURGE_TOKEN}}
